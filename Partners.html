@@ -1,0 +1,86 @@
+﻿
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <html>
+    <head>
+        <title>Partners</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+    </head>
+
+    <body>
+
+        <h2></h2>
+        <a href="index.html">goback</a>
+        <p>Partners</p>
+        <h1 class="bg-danger" align=" center"> Partners</h1>
+        <div class="row">
+            <div class="column" style="background-color:lightblue;">
+                <h2>Patrick Rameau</h2>
+                <p>
+                    Patrick Rameau is an American Actor, Director Teacher, screen writer and playwright. His work as an actor has been  seen on stage, film and television  in numerous countries internationally throughout the continent of Africa, Europe, The middle east, Latin America, USA and Canada.
+
+                    His teaching credits include. the American Academy of Dramatic arts in New-York, Cornell University, SUNY at old Westbury Long Island, Penn State University, Acting International, The American school in Paris.
+
+                    among his directing credits include Athol Fugard's Sizwe bansi is dead, Statements after an arrest... The Island, Lorraine Hansbery's A raisin in the sun, Rosaries, Written and directed.
+
+                    Patrick Rameau has been a professional actor since 1982 and has worked extensively in Regional theaters in the US including the New York Shakespeare Festival, The Alabama Shakespeare festival, Pioneer Stage, Pennsylvania stage co. Portland stage,
+
+                    Mr Rameau has been seen in Avignon at the Palais des papes in Le cid As the King directed by Declan Donellan Also as Belize in Angels in America directed by Brigitte Jaques.
+
+                    As  a Writer his play Rosaries was produced off broadway at the Riverwest Theatre directed by Carol fox prescott. and then directed by Mr. Rameau in a subsequent Off off broadway production.
+
+                    His current screenplay The Fall is in pre production.
+                </p>
+             
+            </div>
+            <div class="column" style="background-color:lavender;">
+                <h2>Carol Fox prescot</h2>
+                <p> Carol Fox Prescot is an American Master teacher that has revolution arise the way acting ius taught by her introduction of the breath technique. She has taught at the American Academy of dramatic arts, Terry Schreiber, Manhattanville college. In paris she teaches regularly for acting Internationale. Among her many credits asa teacher includes the CEO of Carol Fox Prescot Acting classes. Carol falls in the category of people that Actor without embody. Creators that bodly attempt to make positive changes through story telling.
+               She brings 40 years in experience in professional theater and all walks of life
+                enabling break through in authority, personal growth and creativity. Carol clients include professional actors, business leaders, clergy, doctors , artists and educators anyone for whom self discovery is 
+                essential.</p>
+            </div>
+        </div>
+
+       
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="index.html">First</a></li>
+                <li class="page-item"><a class="page-link" href="School.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="Training.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="Workshop.html">3</a></li>
+                <li class="page-item"><a class="page-link" href="Registration.html">5</a></li>
+                <li class="page-item"><a class="page-link" href="News.html">last</a></li>
+
+            </ul>
+        </nav>
+    </body>
+</html>

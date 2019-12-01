@@ -1,0 +1,73 @@
+﻿
+<style>
+ 
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+        }
+    }
+    
+   
+</style>
+
+<html>
+<head>
+    <title>school</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body>
+
+    <h2></h2>
+    <a href="index.html">goback</a>
+    <h1 class="bg-danger" align=" center"> Actor Without Borders School</h1>
+
+    <div class="row">
+        <div class="column" style="background-color:lightblue;">
+            
+            <p>
+                PHILOSOPHIE GENERALE founded by Patrick Rameau,XXXXXXXXXXXXXXX, the concept being that we focus on the needs of the play. Our approach is 100 ercent focussed on performance and personal development of the actor. The program centres around the chosen play and all exercises that will expand the storytelling. Our core studies include Meditation, Writing, Movement, travail vocal, Interpretation but given our chosen play for any particular season classes may be added or removed. We build our team around what is most needed. our aim is to produce actors who are in harmony with the needs of the play and the production in order to service the characters to be portrayed.</p>
+            </p>
+        </div>
+        <div class="column" style="background-color:lavender;">
+            <h2>French</h2>
+            <p>Some text..</p>
+        </div>
+    </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="index.html">First</a></li>
+            <li class="page-item"><a class="page-link" href="Training.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="Workshop.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="Partners.html">4</a></li>
+            <li class="page-item"><a class="page-link" href="Registration.html">5</a></li>
+            <li class="page-item"><a class="page-link" href="News.html">last</a></li>
+
+        </ul>
+    </nav>
+</body>
+
+</html>
+
+
+

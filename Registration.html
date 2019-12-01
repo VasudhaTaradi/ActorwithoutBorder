@@ -1,0 +1,170 @@
+﻿
+
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <meta charset="utf-8" />
+    <title>R</title>
+</head>
+<body>
+
+    <!--Section: Contact v.2-->
+
+    <h1 class="bg-danger" align=" center">Registration Form Actor without border</h1>
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">
+        Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.
+    </p>
+    <style>
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+    </style>
+    </head> 
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                <form name=" myemailform" action="form-to-email.php" method="post">
+                    >
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label for="inputFirstname">First name</label>
+                            <input type="text" class="form-control" id="inputFirstname" placeholder="First name">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputLastname">Last name</label>
+                            <input type="text" class="form-control" id="inputLastname" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label for="inputAddressLine1">Address</label>
+                            <input type="text" class="form-control" id="inputAddressLine1" placeholder="Street Address">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputAddressLine2">Address (Line 2)</label>
+                            <input type="text" class="form-control" id="inputAddressLine2" placeholder="Line 2">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="City">
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="inputState">State</label>
+                            <input type="text" class="form-control" id="inputState" placeholder="State">
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="inputPostalCode">Postal Code</label>
+                            <input type="text" class="form-control" id="inputPostalCode" placeholder="Postal Code">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label for="inputContactNumber">Contact Number</label>
+                            <input type="number" class="form-control" id="inputContactNumber" placeholder="Contact Number">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputWebsite">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label for="inputLastname">Select the language</label>
+                            <div class=" row">
+                                <select multiple searchable=" language" class="mdb-select dropdown-primary md-form" id="exampleFormControlSelect2" width="75">
+                                    <option value="" disabled selected>Choose your Language</option>
+                                    <option value=" 1">English</option>
+                                    <option value="2">French</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputLastname">How did you hear about us</label>
+                            <div class="row">
+
+
+                                <select class="mdb-select colorful-select dropdown-primary md-form" multiple searchable="Search here.." width="75">
+                                    <option value="" disabled selected>Choose your Item</option>
+                                    <option value="1">Newspaper</option>
+                                    <option value="2">Website</option>
+                                    <option value="3">School advertisement posted</option>
+                                    <option value="4">Facebook</option>
+                                    <option value="5">LinkedIn</option>
+                                </select>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label for="inputLastname">Courses you want to Enroll</label>
+                            <div class="row">
+                                <select multiple searchable=" enrolled" class="mdb-select dropdown-primary md-form" id="exampleFormControlSelect3" width="75">
+                                    <option value="" disabled selected>Enrolled for</option>
+                                    <option value=" 1">Summer Camp</option>
+                                    <option value="2">Workshop</option>
+                                    <option value="3">Academic year course</option>
+                                    <option value="2">Hobby</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputLastname"> Interest Level</label>
+                            <div class="row">
+
+
+                                <select class="mdb-select colorful-select dropdown-primary md-form" multiple searchable="Search here.." width="75">
+                                    <option value="" disabled selected>Level</option>
+                                    <option value="1"> Never acted Before  </option>
+                                    <option value="2">Acted in school     </option>
+                                    <option value="3">Acted in public theatre</option>
+                                    <option value="4">Acted in commercial movies  </option>
+
+                                </select>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <button value=" Send" class="btn btn-success" type="submit" id="submit"><i class="glyphicon glyphicon-inbox"></i> Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item"><a class="page-link" href="index.html">First</a></li>
+                                    <li class="page-item"><a class="page-link" href="School.html">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="Training.html">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="Workshop.html">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="Partners.html">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="News.html">last</a></li>
+
+                                </ul>
+                            </nav>
+</body>
+</html>
+<script type="text/javascript">
+  function autoFill() {
+      var1 = document.getElementById('inputFirstname').value;
+      var2 = document.getElementById('inputLastname').value;
+  
+    }
+  
+</script>
